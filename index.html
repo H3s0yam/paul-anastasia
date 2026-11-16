@@ -1086,8 +1086,9 @@ section:has(#rsvpForm) h2{
      Гость никуда не уходит — данные уходят в фоне.
      Заполните хотя бы один способ:
 
-     1) EMAIL через FormSubmit (без регистрации):
-        email: 'you@mail.ru'
+     1) EMAIL через FormSubmit:
+        email: '93d4fc8d...'  // ID из письма Activate Form
+        (или обычный email до активации)
 
      2) TELEGRAM-бот:
         - @BotFather → /newbot → получите token
@@ -1101,7 +1102,7 @@ section:has(#rsvpForm) h2{
      Можно включить оба сразу.
   ============================================= */
   var RSVP_CONFIG = {
-    email: 'p.guns@yandex.ru',
+    email: '93d4fc8d5a1f5420465a0b5934e35a16',  // FormSubmit ID для p.guns@yandex.ru
     telegramBotToken: '',      // токен от @BotFather
     telegramChatId: ''         // ваш chat_id
   };
